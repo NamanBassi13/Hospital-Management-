@@ -1,16 +1,13 @@
 {
-  "name": "hospital-management-system",
+  "name": "chat-app",
   "version": "1.0.0",
-  "description": "Full-stack hospital management backend system",
-  "main": "backend/server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "server": "nodemon backend/server.js"
-  },
-  "engines": {
-    "node": ">=16.0.0"
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
   },
   "keywords": [],
-  "author": "Naman Bassi",
-  "license": "MIT"
+  "author": "",
+  "license": "ISC"
 }
